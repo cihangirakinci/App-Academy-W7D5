@@ -1,0 +1,53 @@
+.sections-sidebar{
+    display: none;
+    background-color: whitesmoke;
+    z-index: 1;
+    position: absolute;
+    border: 0.5px solid black;
+    padding: 20px;
+}
+.sections-sidebar ul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2;
+    text-decoration: none;
+}
+.expand{
+    opacity: 1;
+    display: flex;
+
+}
+
+
+
+.dropdown {
+    position: relative;
+}
+.dropdown > ul {
+    display: none;
+    position: absolute;
+    /* use top, left, right, bottom to position */
+}
+.dropdown:hover > ul {
+    /* applies the following style to uls inside .dropdown */
+    /* but only when .dropdown is being hovered over */
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+}
+.dropdown > ul {
+    display: none;
+    position: absolute;
+    left: 200px;
+    background-color: blanchedalmond;
+    z-index: 1;
+    /* use top, left, right, bottom to position */
+}
+.dropdown:hover > ul {
+    /* applies the following style to uls inside .dropdown */
+    /* but only when .dropdown is being hovered over */
+    display: block;
+}

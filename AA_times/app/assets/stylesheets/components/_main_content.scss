@@ -1,0 +1,80 @@
+
+.left-side{
+    font-family: inherit;
+}
+
+.left-side h2{
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+.left-side p{
+    color: gray;
+}
+
+.left-side ul{
+    line-height: 1.7;
+}
+
+.middle ul a {
+color: black;
+text-decoration: underline;
+font-weight: bold;
+font-size: large;
+}
+
+.right-side h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+.right-side .left h2{
+    font-weight: lighter;
+    text-align: left;
+    text-transform: uppercase;
+}
+.right-side .left a{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+.right-side .left .bullet{
+    list-style-type: disc;
+    font-weight: bold;
+}
+
+.middle-group{
+    overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: auto;
+  clear: both;
+}
+
+
+.right-side .right h2{
+    font-weight: lighter;
+    text-align: left;
+    text-transform: uppercase;
+}
+.thumbnail{
+    height: 50px;
+}
+
+.right img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;;
+}
+
+
+.right .title{
+    font-weight: bold;
+}
+
+.right .writer{
+    color: grey;
+}

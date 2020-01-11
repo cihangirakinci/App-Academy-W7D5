@@ -1,0 +1,43 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    // padding: 40px;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+    display: flex;
+    align-items: flex-start;
+    text-transform: uppercase; 
+    // why is right side not capital
+}
+
+.left-nav > ul > li {
+    font-family: inherit;
+    font-size: inherit;    
+}
+
+.right-nav > ul > li {
+text-transform: uppercase;
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+    background-color: $lightest-gray;
+
+}
+
+.left-nav span {
+    margin: 5px;
+}
+
+
+.right-nav i {
+    margin: 5px;
+    font-size: 15px;
+}

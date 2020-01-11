@@ -1,0 +1,25 @@
+// Use the gear_dropdown.png screenshot as a style guide
+.gear-dropdown{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    width: 100px;
+    z-index: 1;
+    box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
+}
+
+
+.editions a{
+    text-decoration: none;
+    color: black; 
+    cursor: pointer;
+}
+.editions .dropdown-subtitle{
+    color: gray;
+    border-bottom: 1px solid black;
+}
+
+
+
+
